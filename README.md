@@ -43,26 +43,24 @@
 - Static data File - configs.Configurations.property
 
 ### Pre-requisite:
-
-````
+~~~
 Navigate to dataProviders.ConfigFileReader.java, Edit getBaseURL & getMainPageTitle input attributes with respect to base URL.
-```
+~~~
 
 ### To Run: 
 
-````
+~~~
 Navigate to testng.xml, Right-click and Run As "TestNG Suite".
-```
+~~~
 
 ### Cross Browser Devices and Emulator integration: 
 
-````
+~~~
 - Chrome (1200 x 800)
 - Firefox (1200 x 800)
 - Edge Chromium (1200 x 800)
 - Safari (1200 x 800)
 - iPhone X
-```
-
+~~~
 ## Explanation:
 Test script receive its data from the property file. teardown method is used after every script failure, Screen shots are recorder for every method under "\applitool\target\screenshots". Once the test execution finish, Admin should navigate to Applitools dash-board to review test results. 
