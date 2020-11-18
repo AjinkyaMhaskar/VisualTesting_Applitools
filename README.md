@@ -43,16 +43,19 @@
 - Static data File - configs.Configurations.property
 
 ### Pre-requisite:
+
 ````
 Navigate to dataProviders.ConfigFileReader.java, Edit getBaseURL & getMainPageTitle input attributes with respect to base URL.
 ```
 
 ### To Run: 
+
 ````
 Navigate to testng.xml, Right-click and Run As "TestNG Suite".
 ```
 
 ### Cross Browser Devices and Emulator integration: 
+
 ````
 - Chrome (1200 x 800)
 - Firefox (1200 x 800)
